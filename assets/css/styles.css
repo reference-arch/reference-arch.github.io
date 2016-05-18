@@ -245,10 +245,18 @@ header h2.add a{
 
 /* Project description */
 
+.projects-list .shield-list li {
+  display: inline;
+}
+
+.projects-list .shield-list li img {
+  width: 100px;
+}
+
 .projects-list .shield-list {
     position: absolute;
-    top: 36px;
-    left: 32px;
+    top: 6px;
+    left: 10px;
 	list-style: none;
 	margin:0;
 }
